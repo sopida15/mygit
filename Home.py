@@ -7,8 +7,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 #st.header("Sopida")
-st.image("./pic/npru.png")
-#st.image("./pic/dog.jpg")
+#st.image("./pic/npru.png")
+st.image("./pic/sopida.jpg")
 html_8 = """
 <div style="background-color:#F08080;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายข้อมูลดอกไม้</h5></center>
@@ -52,6 +52,7 @@ if st.button("ทำนายผล"):
        
    X = dt.drop('variety', axis=1)
    y = dt.variety
+
    Knn_model = KNeighborsClassifier(n_neighbors=3)
    Knn_model.fit(X, y)   
 
