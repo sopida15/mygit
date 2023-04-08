@@ -14,15 +14,15 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("Versicolor")
-   st.image("https://static.streamlit.io/examples/versicolor.jpg")
+   st.image("./pic/versicolor.jpg")
 
 with col2:
    st.header("Virginica")
-   st.image("https://static.streamlit.io/examples/virginica.jpg")
+   st.image("./pic/virginica.jpg")
 
 with col3:
    st.header("Setosa")
-   st.image("https://static.streamlit.io/examples/setosa.jpg")
+   st.image("./pic/setosa.jpg")
 
 
 
