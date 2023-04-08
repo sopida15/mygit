@@ -8,6 +8,9 @@ import plotly.graph_objects as go
 
 #st.header("Sopida")
 st.image("./pic/npru.png")
+image_file = "./pic/sopida.jpg"
+st.image(image_file, width=400,)
+
 
 col1, col2, col3 = st.columns(3)
 
@@ -89,7 +92,5 @@ if st.button("ทำนายผล"):
 
 else:
    st.write("ไม่แสดงข้อมูล")
-
-st.image("./pic/sopida.jpg")
 
    
