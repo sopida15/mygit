@@ -9,6 +9,9 @@ import plotly.graph_objects as go
 #st.header("Sopida")
 #st.image("./pic/npru.png")
 st.image("./pic/sopida.jpg")
+#image_file = "./pic/my.jpg"
+#st.image(image_file, width=400,)
+
 html_8 = """
 <div style="background-color:#F08080;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายข้อมูลดอกไม้</h5></center>
