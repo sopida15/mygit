@@ -9,8 +9,25 @@ import plotly.graph_objects as go
 #st.header("Sopida")
 st.image("./pic/npru.png")
 #st.image("./pic/sopida.jpg")
-image_file = "./pic/sopida.jpg"
-st.image(image_file, width=400,)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   st.header("Versicolor")
+   st.image("https://static.streamlit.io/examples/versicolor.jpg")
+
+with col2:
+   st.header("Virginica")
+   st.image("https://static.streamlit.io/examples/virginica.jpg")
+
+with col3:
+   st.header("Setosa")
+   st.image("https://static.streamlit.io/examples/setosa.jpg")
+
+
+
+#image_file = "./pic/sopida.jpg"
+#st.image(image_file, width=400,)
 
 html_8 = """
 <div style="background-color:#F08080;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
