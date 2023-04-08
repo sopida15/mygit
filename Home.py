@@ -7,7 +7,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 #st.header("Sopida")
-#st.image("./pic/npru.png")
+st.image("./pic/npru.png")
 st.image("./pic/sopida.jpg")
 #image_file = "./pic/my.jpg"
 #st.image(image_file, width=400,)
@@ -72,6 +72,5 @@ if st.button("ทำนายผล"):
 else:
    st.write("ไม่แสดงข้อมูล")
 
-   
 
    
