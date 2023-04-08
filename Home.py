@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 #st.header("Sopida")
 st.image("./pic/npru.png")
-#st.image("./pic/sopida.jpg")
+st.image("./pic/sopida.jpg")
 
 col1, col2, col3 = st.columns(3)
 
