@@ -82,7 +82,7 @@ if st.button("ทำนายผล"):
 
 if out[0] == 'Setosa':
     st.image("./pic/Setosa.jpg")
-   elif out[0] == 'versicolor':    
+   else out[0] == 'versicolor':    
     st.image("./pic/versicolor.jpg")
    else:
     st.image("./pic/virginica.jpg")
