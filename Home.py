@@ -27,7 +27,7 @@ dt3 = dt['sepal.length'].sum()
 dt4 = dt['sepal.width'].sum()
 
 dx = [dt1, dt2, dt3, dt4]
-dx2 = pd.DataFrame(dx, index=["d1", "d2", "d3", "d4"])\
+dx2 = pd.DataFrame(dx, index=["d1", "d2", "d3", "d4"])
 if st.button("แสดงการจินตทัศน์ข้อมูล"):
     #st.write(dt.head(10))
     st.bar_chart(dx2)
