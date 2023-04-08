@@ -30,7 +30,7 @@ with col3:
 #st.image(image_file, width=400,)
 
 html_8 = """
-<div style="background-color:#F08080;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<div style="background-color:##8E44AD;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>การทำนายข้อมูลดอกไม้</h5></center>
 </div>
 """
